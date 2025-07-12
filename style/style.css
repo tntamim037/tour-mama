@@ -26,6 +26,25 @@ body {
     border: 1px solid rgba(135, 43, 255, 1);
     cursor: pointer;
 }
+
+.service-text{
+    text-align: center;
+     margin-bottom: 60px;
+
+}
+.service-text h4{
+color: rgba(244, 17, 207, 1);
+font-size: 24px;
+font-weight: bold;
+letter-spacing: 3px;
+text-transform: uppercase;
+margin-bottom: 14px;
+}
+.service-text h2{
+font-weight:bold ;
+font-size: 44px;
+}
+
 /* banner */
 
 .banner{
@@ -61,4 +80,56 @@ body {
 }
 
 
+/* service */
+.service{
+    width: 87.5%;
+    margin:0px auto 120px auto;
+}
+.service-card{
+    display: flex;
+   justify-content: space-between;
+   gap: 30px;
+}
+.card{
+    background-color: rgba(253, 255, 255, 1);
+    border:none;
+    border-radius:30px ;
+    /* padding: 20px 60px; */
+    padding: 60px;
+    text-align: center;
+    /* height:450px ; */
+    width:300px ;
+}
+.card img{
+    margin-bottom:40px ;
+}
+.card h3{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.card p{
+    color: rgba(168, 168, 168, 1);
+    font-size: 18px;
+    font-weight: medium;
+}
+/* story-container */
+#story-container{
+    width: 87.5%;
+    margin:0px auto 120px auto;
+}
+.story-card{
+display: flex;
+padding: 40px;
+border-radius: 24px;
+background-color: white;
+gap: 20px;
+}
+.story-content h2,.story-content img,.story-content p{
+    margin-bottom: 30px;
+}
+.story-content p{
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.7);
+}
 
